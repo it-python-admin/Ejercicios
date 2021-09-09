@@ -9,23 +9,42 @@ Categoría
 Mostrar el segundo empleado del segundo departamento
 ¿Todos los empleados de todos los departamentos?
 """
-empresa=[]
-departamento1=["Informatica"]
-departamento2=["Recursos Humanos"]
-empleado1=["Pablo","Director"]
-empleado2=["Sofia","Subdirectora"]
-empleado3=["Anna","Directora"]
-empleado4=["Lucia","Tecnico"]
-empleado5=["Luis","Tecnico"]
-empleados_dpto1=[empleado1, empleado2]
-empleados_dpto2=[empleado3, empleado4, empleado5]
-departamento1.append(empleados_dpto1)
-departamento2.append(empleados_dpto2)
-empresa.append(departamento1)
-empresa.append(departamento2)
+empresa = []
+dpto1 = []
+dpto2 = []
+empleados1 = []
+empleados2 = []
+e1 = ["Director/a","Juanra"]
+e2 = ["Subdirector","Oscar"]
+e3 = ["Director/a","Josefina"]
+e4 = ["Gerente","Carlos"]
+e5 = ["Coordinador","Victor"]
+#Insertamos los departamentos a la empresa
+empresa.append(dpto1)
+empresa.append(dpto2)
+#Asignamos el nombre al departamento
+dpto1.append("Informatica")
+#Asignamos los empleados al departamento
+empleados1.append(e1)
+empleados1.append(e2)
+dpto1.append(empleados1)
+#Asignamos el nombre al departamento
+dpto2.append("Ventas")
+#Asignamos los empleados al departamento
+empleados2.append(e3)
+empleados2.append(e4)
+empleados2.append(e5)
+dpto2.append(empleados2)
+#Cambiamos el gerente del departamento de ventas
+e4[1]="Antonio"
+#Mostramos los datos
 for departamento in empresa:
-    print("DEPARTAMENTO:",departamento[0])
+    print("*****",departamento[0],"*****")
     for empleado in departamento[1]:
-        print("--Empleado:",empleado[0])
-        print("--Categoria:",empleado[1])
-
+        print("=======",empleado[0],":",empleado[1]) 
+#Buscar la categoria profesional de un empleado
+nombre_a_buscar = input("Introduce el nombre del empleado:")
+for departamento in empresa:
+    for empleado in departamento[1]:
+        if empleado[1]==nombre_a_buscar:
+            print(empleado[1],"trabaja como",empleado[0],"en el departamento de",departamento[0]) 
