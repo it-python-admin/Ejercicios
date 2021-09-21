@@ -1,0 +1,21 @@
+            VENTAS            
+Lunes     Martes    Miércoles 
+      2083        10      -283
+        38       183        19
+         1         2         3
+                      VENTAS                      
+Lunes     Martes    Miércoles Jueves    Viernes   
+      2083        10      -283      2023        10
+        38       183        19        11        18
+                                             VENTAS                                             
+Lunes           Martes          Miércoles       Jueves          Viernes         Sábado sabadete 
+            2083              10            -283            2023              10             200
+              38             183              19              11              18             100
+            VENTAS            
+L    M    X    J    V    S    
+ 2083   10 -283 2023   10  200
+   38  183   19   11   18  100
+                                                VENTAS                                                
+Lunes            Martes           Miércoles        Jueves           Viernes          Sábado sabadete  
+             2083               10             -283             2023               10              200
+               38              183               19               11               18              100
