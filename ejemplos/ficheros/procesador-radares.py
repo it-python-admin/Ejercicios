@@ -7,7 +7,7 @@ with open("radar.txt","r") as fichero:
         matricula = matricula.replace("\n","")
         fecha = fichero.readline().replace("\n","")
         velocidad = int(fichero.readline().replace("\n",""))
-        capturas.append([matricula,fecha,velocidad])        
+        capturas.append((matricula,fecha,velocidad))        
         matricula = fichero.readline()
 print(capturas)
 

@@ -1,0 +1,6 @@
+fichero=open("datos.txt","w+")
+fichero.write("Me gusta el ciclismo")
+fichero.seek(0)
+linea=fichero.readline()
+print(linea)
+fichero.close()
