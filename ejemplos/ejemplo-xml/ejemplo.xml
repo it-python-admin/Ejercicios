@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <nombre edad="35">Alicia</nombre>
+  <libros>
+    <titulo>Matematicas para torpes</titulo>
+  </libros>
+  <libros>
+    <titulo>Física para torpes</titulo>
+  </libros>
+  <libros>
+    <titulo>Inglés para torpes</titulo>
+  </libros>
+</root>

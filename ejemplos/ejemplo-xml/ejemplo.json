@@ -1,0 +1,9 @@
+{
+    "nombre":"Alicia",
+    "edad":35,
+    "libros":[
+        {"titulo":"Matematicas para torpes"},
+        {"titulo":"Física para torpes"},
+        {"titulo":"Inglés para torpes"}
+    ]
+}
