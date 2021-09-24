@@ -1,0 +1,6 @@
+Instalación de librería para acceso por http:
+pip install requests
+
+Instalación de librería para manejo de pdfs:
+pip install FPDF
+
