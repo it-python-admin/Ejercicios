@@ -1,0 +1,5 @@
+API KEY OMDB-API
+8c290063
+
+
+https://www.omdbapi.com/?apikey=8c290063&i=tt1483025
