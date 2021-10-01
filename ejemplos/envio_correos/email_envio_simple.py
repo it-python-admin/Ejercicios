@@ -1,16 +1,16 @@
 import smtplib
 import logging
-logging.getLogger().setLevel(logging.DEBUG)
+#logging.getLogger().setLevel(logging.DEBUG)
 remitente="pruebas.email.python@gmail.com"
 password="ITTIPython@2021"
 destinatario="pruebas.email.python@gmail.com"
 asunto="Prueba"
-mensaje="Subject:{}\n{}".format("El asunto del correo","El mensaje")
+mensaje="Subject:{}\n{}".format("El otro asunto...","El mensaje")
 try:
     logging.debug("Step 1")
     server = smtplib.SMTP('smtp.gmail.com',587)
     logging.debug("Step 2")
-    server.ehlo()
+    #server.ehlo()
     logging.debug("Step 3")
     server.starttls()
     logging.debug("Step 4")

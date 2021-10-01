@@ -1,0 +1,1 @@
+python cryptocurrencies-alert.py
